@@ -1,0 +1,20 @@
+環境
+Ubuntu 16.04
+PHP 5.6.36
+MySQL 14.14
+
+安裝 composer
+apt-get install composer
+
+完整安裝
+$ composer require zendframework/zendframework
+
+僅安裝MVC
+$ composer require zendframework/zend-mvc
+
+在/var/www/html中新建資料夾
+composer create-project zendframework/skeleton-application 路徑
+
+啟動網頁伺服器
+composer serve
+瀏覽器輸入0.0.0.0:8080即可看到網頁畫面
